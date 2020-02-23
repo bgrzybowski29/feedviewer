@@ -17,10 +17,11 @@ header {
   flex-shrink: 0;
   display: grid;
   display: inline-flex;
-  background-color: lavenderblush;
+  background-color: #0D639D;
   right:0;
   left:0;
   margin-top: 0;
+  color: white;
 }
 nav{
   padding-right: 10%;
@@ -29,7 +30,7 @@ nav{
   padding-top: 40px;
 }
 nav a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 header h1{
@@ -47,21 +48,12 @@ header h1{
 }
 
 
-.button {
-  background-color: #4CAF50;
-  height: 20px;
-  border: none;
-  border-radius: 6px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-}
+
 
 footer {
   flex: 0 0 auto;
   padding-top: 20px;
-  background-color: lavenderblush;
+  background-color: #0D639D;
   text-align: center;
 }
 .image-footer{
@@ -70,7 +62,7 @@ footer {
 }
 #copyright{
   text-align: center;
-  color: black;
+  color: white;
 }
 @media only screen 
   and (max-width: 500px){
